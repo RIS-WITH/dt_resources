@@ -788,6 +788,7 @@
     <owl:NamedIndividual rdf:about="dt_objects#table_lack">
         <rdf:type rdf:resource="cg_objects#LowTable"/>
         <common_ground:hasArId rdf:datatype="http://www.w3.org/2002/07/owl#real">72</common_ground:hasArId>
+        <cg_entities:hasColor rdf:resource="cg_entities#black"/>
     </owl:NamedIndividual>
 
 
