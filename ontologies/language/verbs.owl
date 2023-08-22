@@ -1509,6 +1509,209 @@
         <rdfs:label xml:lang="fr">avaient pris</rdfs:label>
     </owl:Class>
 
+     <!--
+    ///////////////////
+    // Show
+    ///////////////////
+     -->
 
+
+    <!-- ontologenius#Show -->
+
+    <owl:Class rdf:about="ontologenius#Show">
+        <rdfs:subClassOf rdf:resource="ontologenius#ActionVerb"/>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSimplePresent -->
+
+    <owl:Class rdf:about="ontologenius#ShowSimplePresent">
+        <rdfs:subClassOf rdf:resource="ontologenius#SimplePresent"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#Show"/>
+        <rdfs:label xml:lang="en">show</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowFSPSimplePresent -->
+
+    <owl:Class rdf:about="ontologenius#ShowFSPSimplePresent">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePresent"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#FirstSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">montre</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSSPSimplePresent -->
+
+    <owl:Class rdf:about="ontologenius#ShowSSPSimplePresent">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePresent"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#SecondSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">montres</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSSPSimplePresent -->
+
+    <owl:Class rdf:about="ontologenius#ShowTSPSimplePresent">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePresent"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#ThirdSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">montre</rdfs:label>
+        <rdfs:label xml:lang="en">shows</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowFSPSimplePresent -->
+
+    <owl:Class rdf:about="ontologenius#ShowFPPSimplePresent">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePresent"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#FirstPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">montrons</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSSPSimplePresent -->
+
+    <owl:Class rdf:about="ontologenius#ShowSPPSimplePresent">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePresent"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#SecondPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">montrez</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSSPSimplePresent -->
+
+    <owl:Class rdf:about="ontologenius#ShowTPPSimplePresent">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePresent"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#ThirdPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">montrent</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSimplePast -->
+
+    <owl:Class rdf:about="ontologenius#ShowSimplePast">
+        <rdfs:subClassOf rdf:resource="ontologenius#SimplePast"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#Show"/>
+        <rdfs:label xml:lang="en">shown</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowFSPSimplePast -->
+
+    <owl:Class rdf:about="ontologenius#ShowFSPSimplePast">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePast"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#FirstSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">ai montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSSPSimplePast -->
+
+    <owl:Class rdf:about="ontologenius#ShowSSPSimplePast">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePast"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#SecondSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">as montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowTSPSimplePast -->
+
+    <owl:Class rdf:about="ontologenius#ShowTSPSimplePast">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePast"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#ThirdSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">a montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowFPPSimplePast -->
+
+    <owl:Class rdf:about="ontologenius#ShowFPPSimplePast">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePast"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#FirstPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">avons montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSPPSimplePast -->
+
+    <owl:Class rdf:about="ontologenius#ShowSPPSimplePast">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePast"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#SecondPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">avez montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowTPPSimplePast -->
+
+    <owl:Class rdf:about="ontologenius#ShowTPPSimplePast">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowSimplePast"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#ThirdPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">ont montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowPastParticiple -->
+
+    <owl:Class rdf:about="ontologenius#ShowPastParticiple">
+        <rdfs:subClassOf rdf:resource="ontologenius#PastParticiple"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#Show"/>
+        <rdfs:label xml:lang="en">had shown</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowFSPPastParticiple -->
+
+    <owl:Class rdf:about="ontologenius#ShowFSPPastParticiple">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowPastParticiple"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#FirstSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">avais montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSSPPastParticiple -->
+
+    <owl:Class rdf:about="ontologenius#ShowSSPPastParticiple">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowPastParticiple"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#SecondSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">avais montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowTSPPastParticiple -->
+
+    <owl:Class rdf:about="ontologenius#ShowTSPPastParticiple">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowPastParticiple"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#ThirdSingularPersonalForm"/>
+        <rdfs:label xml:lang="fr">avait montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowFPPPastParticiple -->
+
+    <owl:Class rdf:about="ontologenius#ShowFPPPastParticiple">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowPastParticiple"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#FirstPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">avions montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowSPPPastParticiple -->
+
+    <owl:Class rdf:about="ontologenius#ShowSPPPastParticiple">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowPastParticiple"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#SecondPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">aviez montré</rdfs:label>
+    </owl:Class>
+
+
+    <!-- ontologenius#ShowTPPPastParticiple -->
+
+    <owl:Class rdf:about="ontologenius#ShowTPPPastParticiple">
+        <rdfs:subClassOf rdf:resource="ontologenius#ShowPastParticiple"/>
+        <rdfs:subClassOf rdf:resource="ontologenius#ThirdPluralPersonalForm"/>
+        <rdfs:label xml:lang="fr">avaient montré</rdfs:label>
+    </owl:Class>
+
+</rdf:RDF>
 
 <!-- Generated by the ontologenius https://sarthou.github.io/ontologenius/ -->
