@@ -17,7 +17,7 @@ git clone -b proba https://github.com/sarthou/ontologenius.git
 git clone -b tempo https://github.com/sarthou/mementar.git
 git clone -b kinetic-devel https://github.com/sarthou/ar_track_alvar.git
 git clone git@github.com:RIS-WITH/common_ground_ontology.git
-git clone -dev git@github.com:sarthou/overworld.git
+git clone -b dev git@github.com:sarthou/overworld.git
 ```
 
 # Usage
