@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find mementar)/launch/mementar_multi_full.launch">
+    <arg name="intern_directory" value="none" />
+    <arg name="config_file" value="$(find dt_resources)/configs/mementar.yaml" />
+  </include>
+</launch>

@@ -27,6 +27,7 @@
 
     <owl:NamedIndividual rdf:about="dt_humans#Glove_1">
         <rdf:type rdf:resource="cg_agents#RightHand"/>
+        <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
     </owl:NamedIndividual>
     
 
@@ -34,6 +35,23 @@
     <!-- dt_humans#Glove_2 -->
 
     <owl:NamedIndividual rdf:about="dt_humans#Glove_2">
+        <rdf:type rdf:resource="cg_agents#LeftHand"/>
+        <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- dt_humans#Glove_mockRight -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#Glove_mockRight">
+        <rdf:type rdf:resource="cg_agents#RightHand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- dt_humans#Glove_mockLeft -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#Glove_mockLeft">
         <rdf:type rdf:resource="cg_agents#LeftHand"/>
     </owl:NamedIndividual>
     
@@ -43,6 +61,7 @@
 
     <owl:NamedIndividual rdf:about="dt_humans#Helmet_2">
         <rdf:type rdf:resource="cg_agents#Head"/>
+        <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
     </owl:NamedIndividual>
     
 
@@ -51,6 +70,7 @@
 
     <owl:NamedIndividual rdf:about="dt_humans#Helmet_4">
         <rdf:type rdf:resource="cg_agents#Head"/>
+        <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
     </owl:NamedIndividual>
     
 
@@ -59,6 +79,16 @@
 
     <owl:NamedIndividual rdf:about="dt_humans#herakles">
         <rdf:type rdf:resource="cg_agents#Head"/>
+        <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- dt_humans#idiap_head -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#idiap_head">
+        <rdf:type rdf:resource="dt_humans#Head"/>
+        <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
     </owl:NamedIndividual>
     
 
@@ -80,9 +110,7 @@
     <owl:NamedIndividual rdf:about="dt_humans#human_0">
         <rdf:type rdf:resource="cg_agents#Human"/>
         <cg_agents:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
-        <cg_agents:hasHead rdf:resource="dt_humans#Helmet_2"/>
-        <cg_agents:hasLeftHand rdf:resource="dt_humans#Glove_1"/>
-        <cg_agents:hasRightHand rdf:resource="dt_humans#Glove_2"/>
+        <cg_agents:hasHead rdf:resource="dt_humans#idiap_head"/>
     </owl:NamedIndividual>
     
 
@@ -95,6 +123,16 @@
         <cg_agents:hasHead rdf:resource="dt_humans#Helmet_4"/>
         <cg_agents:hasLeftHand rdf:resource="dt_humans#Glove_1"/>
         <cg_agents:hasRightHand rdf:resource="dt_humans#Glove_2"/>
+    </owl:NamedIndividual>
+
+    <!-- dt_humans#human_2 -->
+    
+    <owl:NamedIndividual rdf:about="dt_humans#human_2">
+        <rdf:type rdf:resource="cg_agents#Human"/>
+        <cg_agents:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
+        <cg_agents:hasHead rdf:resource="dt_humans#Helmet_2"/>
+        <cg_agents:hasRightHand rdf:resource="dt_humans#Glove_2"/>
+        <cg_agents:hasLeftHand rdf:resource="dt_humans#Glove_mockLeft"/>
     </owl:NamedIndividual>
 
 </rdf:RDF>

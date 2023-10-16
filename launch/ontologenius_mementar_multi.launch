@@ -5,8 +5,6 @@
     $(find dt_resources)/ontologies/dt_objects.owl
     $(find dt_resources)/ontologies/dt_humans.owl
     $(find dt_resources)/ontologies/actions_emulation.owl
-    $(find dt_resources)/ontologies/language/language.owl
-    $(find dt_resources)/ontologies/language/verbs.owl
     $(find overworld)/ontologies/adream_building.owl
   "/>
 
