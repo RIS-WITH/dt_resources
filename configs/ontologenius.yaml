@@ -1,7 +1,8 @@
 flow:
-  - ReasonerChain
-  - ReasonerDictionary
-  - ReasonerInverseOf
-  - ReasonerRangeDomain
-  - ReasonerSymetric
-  - ReasonerEgocentrics
+  - ontologenius::ReasonerChain
+  - ontologenius::ReasonerDictionary
+  - ontologenius::ReasonerInverseOf
+  - ontologenius::ReasonerRangeDomain
+  - ontologenius::ReasonerSymmetric
+  - overworld::ReasonerEgocentrics
+  - ontologenius::ReasonerTransitivity
