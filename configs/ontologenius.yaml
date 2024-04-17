@@ -4,4 +4,5 @@ flow:
   - ontologenius::ReasonerInverseOf
   - ontologenius::ReasonerRangeDomain
   - ontologenius::ReasonerSymmetric
-  - ontologenius::ReasonerEgocentrics
+  - overworld::ReasonerEgocentrics
+  - ontologenius::ReasonerTransitivity
