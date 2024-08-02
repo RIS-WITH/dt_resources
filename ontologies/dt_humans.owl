@@ -62,6 +62,26 @@
     <owl:NamedIndividual rdf:about="dt_humans#Helmet_2">
         <rdf:type rdf:resource="cg_agents#Head"/>
         <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
+        <cg_sensors:hasSensor rdf:resource="dt_humans#Helmet_2_eye"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- dt_humans#Helmet_2_eye -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#Helmet_2_eye">
+        <rdf:type rdf:resource="cg_sensors#Sensor"/>
+        <cg_sensors:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
+        <cg_sensors:hasFrameId rdf:resource="dt_humans#Helmet_2_eye_frame"/>
+        <cg_sensors:isStatic rdf:datatype="http://www.w3.org/2002/07/owl#bool">false</cg_sensors:isStatic>
+    </owl:NamedIndividual>
+
+
+
+    <!-- dt_humans#Helmet_2_eye_frame -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#Helmet_2_eye_frame">
+        <rdf:type rdf:resource="cg_sensors#FrameId"/>
     </owl:NamedIndividual>
     
 
@@ -71,36 +91,95 @@
     <owl:NamedIndividual rdf:about="dt_humans#Helmet_4">
         <rdf:type rdf:resource="cg_agents#Head"/>
         <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
+        <cg_sensors:hasSensor rdf:resource="dt_humans#Helmet_4_eye"/>
+    </owl:NamedIndividual>
+
+
+    <!-- dt_humans#Helmet_4_eye -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#Helmet_4_eye">
+        <rdf:type rdf:resource="cg_sensors#Sensor"/>
+        <cg_sensors:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
+        <cg_sensors:hasFrameId rdf:resource="dt_humans#Helmet_4_eye_frame"/>
+        <cg_sensors:isStatic rdf:datatype="http://www.w3.org/2002/07/owl#bool">false</cg_sensors:isStatic>
+    </owl:NamedIndividual>
+
+
+
+    <!-- dt_humans#Helmet_4_eye_frame -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#Helmet_4_eye_frame">
+        <rdf:type rdf:resource="cg_sensors#FrameId"/>
     </owl:NamedIndividual>
     
-
+    
 
     <!-- dt_humans#herakles -->
 
     <owl:NamedIndividual rdf:about="dt_humans#herakles">
         <rdf:type rdf:resource="cg_agents#Head"/>
         <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
+        <cg_sensors:hasSensor rdf:resource="dt_humans#herakles_eye"/>
     </owl:NamedIndividual>
     
+
+
+    <!-- dt_humans#herakles_eye -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#herakles_eye">
+        <rdf:type rdf:resource="cg_sensors#Sensor"/>
+        <cg_sensors:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
+        <cg_sensors:hasFrameId rdf:resource="dt_humans#herakles_eye_frame"/>
+        <cg_sensors:isStatic rdf:datatype="http://www.w3.org/2002/07/owl#bool">false</cg_sensors:isStatic>
+    </owl:NamedIndividual>
+
+
+    
+    <!-- dt_humans#herakles_eye_frame -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#herakles_eye_frame">
+        <rdf:type rdf:resource="cg_sensors#FrameId"/>
+    </owl:NamedIndividual>
+
 
 
     <!-- dt_humans#idiap_head -->
 
     <owl:NamedIndividual rdf:about="dt_humans#idiap_head">
-        <rdf:type rdf:resource="dt_humans#Head"/>
+        <rdf:type rdf:resource="cg_agents#Head"/>
         <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
+        <cg_sensors:hasSensor rdf:resource="dt_humans#idiap_head_eye"/>
     </owl:NamedIndividual>
     
+
+
+    <!-- dt_humans#idiap_head_eye -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#idiap_head_eye">
+        <rdf:type rdf:resource="cg_sensors#Sensor"/>
+        <cg_sensors:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
+        <cg_sensors:hasFrameId rdf:resource="dt_humans#idiap_head_eye_frame"/>
+        <cg_sensors:isStatic rdf:datatype="http://www.w3.org/2002/07/owl#bool">false</cg_sensors:isStatic>
+    </owl:NamedIndividual>
+
+
+
+    <!-- dt_humans#idiap_head_eye_frame -->
+
+    <owl:NamedIndividual rdf:about="dt_humans#herakles_eye_frame">
+        <rdf:type rdf:resource="cg_sensors#FrameId"/>
+    </owl:NamedIndividual>
+
 
 
     <!-- dt_humans#mocap_fov -->
 
     <owl:NamedIndividual rdf:about="dt_humans#mocap_fov">
-        <rdf:type rdf:resource="cg_agents#FieldOfView"/>
-        <cg_agents:fovHasClipNear rdf:datatype="http://www.w3.org/2002/07/owl#real">0.1</cg_agents:fovHasClipNear>
-        <cg_agents:fovHasClipFar rdf:datatype="http://www.w3.org/2002/07/owl#real">9</cg_agents:fovHasClipFar>
-        <cg_agents:fovHasHeight rdf:datatype="http://www.w3.org/2002/07/owl#real">70</cg_agents:fovHasHeight>
-        <cg_agents:fovHasWidth rdf:datatype="http://www.w3.org/2002/07/owl#real">102.4</cg_agents:fovHasWidth>
+        <rdf:type rdf:resource="cg_sensors#FieldOfView"/>
+        <cg_sensors:fovHasClipNear rdf:datatype="http://www.w3.org/2002/07/owl#real">0.1</cg_sensors:fovHasClipNear>
+        <cg_sensors:fovHasClipFar rdf:datatype="http://www.w3.org/2002/07/owl#real">9</cg_sensors:fovHasClipFar>
+        <cg_sensors:fovHasHeight rdf:datatype="http://www.w3.org/2002/07/owl#real">70</cg_sensors:fovHasHeight>
+        <cg_sensors:fovHasWidth rdf:datatype="http://www.w3.org/2002/07/owl#real">102.4</cg_sensors:fovHasWidth>
     </owl:NamedIndividual>
     
 
@@ -109,7 +188,6 @@
     
     <owl:NamedIndividual rdf:about="dt_humans#human_0">
         <rdf:type rdf:resource="cg_agents#Human"/>
-        <cg_agents:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
         <cg_agents:hasHead rdf:resource="dt_humans#idiap_head"/>
     </owl:NamedIndividual>
     
@@ -119,8 +197,7 @@
     
     <owl:NamedIndividual rdf:about="dt_humans#human_1">
         <rdf:type rdf:resource="cg_agents#Human"/>
-        <cg_agents:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
-        <cg_agents:hasHead rdf:resource="dt_humans#Helmet_4"/>
+        <cg_agents:hasHead rdf:resource="dt_humans#herakles"/>
         <cg_agents:hasLeftHand rdf:resource="dt_humans#Glove_1"/>
         <cg_agents:hasRightHand rdf:resource="dt_humans#Glove_2"/>
     </owl:NamedIndividual>
@@ -129,7 +206,6 @@
     
     <owl:NamedIndividual rdf:about="dt_humans#human_2">
         <rdf:type rdf:resource="cg_agents#Human"/>
-        <cg_agents:hasFieldOfView rdf:resource="dt_humans#mocap_fov"/>
         <cg_agents:hasHead rdf:resource="dt_humans#Helmet_2"/>
         <cg_agents:hasRightHand rdf:resource="dt_humans#Glove_2"/>
         <cg_agents:hasLeftHand rdf:resource="dt_humans#Glove_mockLeft"/>
