@@ -24,6 +24,7 @@ human:
 
 ar_track:
   min_track_err: 0.05
+  sensor_id: realsense
 
 static:
   file: package://overworld/config/adream.yaml
