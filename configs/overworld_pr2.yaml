@@ -1,8 +1,8 @@
 modules:
   robot:
     JointStatePerceptionModule: pr2_joints
-  #humans:
-   # OptitrackPerceptionModule: optitrack
+  humans:
+    OptitrackPerceptionModule: optitrack
   objects:
     ArTrackPerceptionModule: ar_track
     Pr2GripperPerceptionModule:
@@ -21,13 +21,16 @@ pr2_left_gripper:
 
 pr2_right_gripper:
   side: 1 # = right
-  distance_threshold: 0.04
-  pressure_threshold: 150
+  distance_threshold: 0.03
+  pressure_threshold: 90
 
 optitrack:
-  name: human_0
+  name: human_1
   offset_x: 6.4868
   offset_y: 2.8506
+
+ar_track:
+  min_track_err: 0.05
 
 static:
   file: package://overworld/config/adream.yaml
