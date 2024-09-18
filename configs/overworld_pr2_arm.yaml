@@ -36,7 +36,7 @@ ar_track_head:
 
 ar_track_arm:
   min_track_err: 0.05
-  ns: /larm/
+  ns: /rarm/
 
 static:
   file: package://overworld/config/adream.yaml
