@@ -29,12 +29,12 @@
 					  $(find dt_resources)/tags/C4.xml
 					  $(find dt_resources)/tags/C5.xml
 					  $(find dt_resources)/tags/table_1.xml
-						$(find dt_resources)/tags/table_lack.xml"/>
+						$(find dt_resources)/tags/table_lack.xml
+						$(find dt_resources)/tags/throw_box_pink.xml"/>
 					  <!--
 					  $(find dt_resources)/tags/table_2.xml
 					  $(find dt_resources)/tags/table_3.xml
 					  $(find dt_resources)/tags/round_table.xml
-					  $(find dt_resources)/tags/throw_box_pink.xml
 					  $(find dt_resources)/tags/throw_box_green.xml
 					  $(find dt_resources)/tags/table.xml"/> -->
 
