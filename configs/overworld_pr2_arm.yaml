@@ -35,7 +35,7 @@ ar_track_head:
   min_track_err: 0.05
 
 ar_track_arm:
-  min_track_err: 0.05
+  min_track_err: 0.003
   ns: /rarm/
 
 static:
