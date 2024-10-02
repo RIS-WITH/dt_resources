@@ -47,7 +47,7 @@
     <!-- dt_objects#DtThrowBox -->
 
     <owl:Class rdf:about="dt_objects#DtThrowBox">
-        <rdfs:subClassOf rdf:resource="cg_objects#StorageBox"/>
+        <rdfs:subClassOf rdf:resource="cg_objects#Box"/>
         <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/furnitures/throw_box.dae</cg_entities:hasMesh>
     </owl:Class>
 
