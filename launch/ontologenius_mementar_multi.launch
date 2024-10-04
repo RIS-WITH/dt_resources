@@ -15,5 +15,6 @@
     <arg name="onto_display" value="false" />
     <arg name="onto_files" value="$(arg files)" />
     <arg name="onto_intern_file" value="none" />
+    <arg name="onto_lang" value="fr" />
   </include>
 </launch>
