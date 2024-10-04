@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/RIS-WITH/dt_resources/blob/master/ontologies/dt_objects#"
-     xml:base="https://github.com/RIS-WITH/dt_resources/blob/master/ontologies/dt_objects#"
-     xmlns:dt_objects="https://github.com/RIS-WITH/dt_resources/blob/master/ontologies/dt_objects#"
+<rdf:RDF xmlns:dt_objects="https://github.com/RIS-WITH/dt_resources/blob/master/ontologies/dt_objects#"
      xmlns:cg_objects="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_objects#"
      xmlns:cg_entities="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_entities#"
      xmlns:common_ground="https://github.com/RIS-WITH/common_ground_ontology/blob/master/CG_root#"
@@ -49,7 +47,7 @@
     <!-- dt_objects#DtThrowBox -->
 
     <owl:Class rdf:about="dt_objects#DtThrowBox">
-        <rdfs:subClassOf rdf:resource="cg_objects#StorageBox"/>
+        <rdfs:subClassOf rdf:resource="cg_objects#Box"/>
         <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/furnitures/throw_box.dae</cg_entities:hasMesh>
     </owl:Class>
 

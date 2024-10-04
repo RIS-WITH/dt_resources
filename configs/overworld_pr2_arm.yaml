@@ -4,7 +4,9 @@ modules:
   humans:
     OptitrackPerceptionModule: optitrack
   objects:
-    ArTrackPerceptionModule: ar_track
+    ArTrackPerceptionModule:
+      - ar_track_head
+      - ar_track_arm
     Pr2GripperPerceptionModule:
       - pr2_left_gripper
       - pr2_right_gripper
@@ -29,8 +31,12 @@ optitrack:
   offset_x: 6.4868
   offset_y: 2.8506
 
-ar_track:
+ar_track_head:
   min_track_err: 0.05
+
+ar_track_arm:
+  min_track_err: 0.003
+  ns: /rarm/
 
 static:
   file: package://overworld/config/adream.yaml
