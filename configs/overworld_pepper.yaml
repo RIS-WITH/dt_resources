@@ -14,7 +14,7 @@ human:
   name: human_0
 
 ar_track:
-  min_track_err: 0.05
+  min_track_err: 0.025
   sensor_id: realsense
 
 static:
