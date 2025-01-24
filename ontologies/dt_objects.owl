@@ -29,7 +29,7 @@
     <owl:Class rdf:about="dt_objects#DtCube">
         <rdfs:subClassOf rdf:resource="cg_objects#Cube"/>
         <cg_entities:hasMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/cubes/stl/dt_cube.stl</cg_entities:hasMesh>
-        <cg_entities:hasTexture rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/textures/cubes_textures.png</cg_entities:hasTexture>
+        <cg_entities:hasDiffuseTexture rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/textures/cubes_textures.png</cg_entities:hasDiffuseTexture>
     </owl:Class>
 
     <!-- dt_objects#DtBox -->
@@ -39,7 +39,7 @@
         <rdfs:subClassOf rdf:resource="cg_objects#Support"/>
         <cg_entities:hasVisualMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/boxes/stl/dt_box.stl</cg_entities:hasVisualMesh>
         <cg_entities:hasCollisionMesh rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/mesh/boxes/obj/dt_box_vhacd.obj</cg_entities:hasCollisionMesh>
-        <cg_entities:hasTexture rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/textures/dt_box_color.png</cg_entities:hasTexture>
+        <cg_entities:hasDiffuseTexture rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://dt_resources/textures/dt_box_color.png</cg_entities:hasDiffuseTexture>
     </owl:Class>
 
 
