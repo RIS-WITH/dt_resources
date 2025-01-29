@@ -4,6 +4,7 @@
     <arg name="cam_image_topic" value="/zedx/zed_node/left_raw/image_raw_color" />
     <arg name="cam_info_topic" value="/zedx/zed_node/left_raw/camera_info" />
     <arg name="output_frame" value="/base_footprint" />
+    <arg name="ns" value="/" />
   </include>
 
 </launch>

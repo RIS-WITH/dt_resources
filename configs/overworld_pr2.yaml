@@ -30,7 +30,7 @@ optitrack:
   offset_y: 2.8506
 
 ar_track:
-  min_track_err: 0.05
+  min_track_err: 0.08
 
 static:
   file: package://overworld/config/adream.yaml
