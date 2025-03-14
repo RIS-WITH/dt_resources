@@ -60,7 +60,7 @@
     <!-- dt_humans#Helmet_2 -->
 
     <owl:NamedIndividual rdf:about="dt_humans#Helmet_2">
-        <rdf:type rdf:resource="cg_agents#Head"/>
+        <rdf:type rdf:resource="cg_agents#HumanHead"/>
         <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
         <cg_sensors:hasSensor rdf:resource="dt_humans#Helmet_2_eye"/>
     </owl:NamedIndividual>
@@ -89,7 +89,7 @@
     <!-- dt_humans#Helmet_4 -->
 
     <owl:NamedIndividual rdf:about="dt_humans#Helmet_4">
-        <rdf:type rdf:resource="cg_agents#Head"/>
+        <rdf:type rdf:resource="cg_agents#HumanHead"/>
         <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
         <cg_sensors:hasSensor rdf:resource="dt_humans#Helmet_4_eye"/>
     </owl:NamedIndividual>
@@ -117,7 +117,7 @@
     <!-- dt_humans#herakles -->
 
     <owl:NamedIndividual rdf:about="dt_humans#herakles">
-        <rdf:type rdf:resource="cg_agents#Head"/>
+        <rdf:type rdf:resource="cg_agents#HumanHead"/>
         <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
         <cg_sensors:hasSensor rdf:resource="dt_humans#herakles_eye"/>
     </owl:NamedIndividual>
@@ -146,7 +146,7 @@
     <!-- dt_humans#idiap_head -->
 
     <owl:NamedIndividual rdf:about="dt_humans#idiap_head">
-        <rdf:type rdf:resource="cg_agents#Head"/>
+        <rdf:type rdf:resource="cg_agents#HumanHead"/>
         <cg_entities:hasColor rdf:resource="cg_entities#skin_color"/>
         <cg_sensors:hasSensor rdf:resource="dt_humans#idiap_head_eye"/>
     </owl:NamedIndividual>
