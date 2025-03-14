@@ -9,10 +9,12 @@ modules:
       - pr2_left_gripper
       - pr2_right_gripper
     StaticObjectsPerceptionModule: static
+  areas:
+    ObjAreasPerceptionModule: obj_area
 
 pr2_joints:
   robot_name : pr2
-  min_period : 0.06
+  min_period : 0.1
 
 pr2_left_gripper:
   side: 0 # = left
@@ -34,3 +36,6 @@ ar_track:
 
 static:
   file: package://overworld/config/adream.yaml
+
+obj_area:
+  file : package://overworld/config/adream_areas.yaml

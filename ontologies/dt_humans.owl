@@ -176,8 +176,8 @@
 
     <owl:NamedIndividual rdf:about="dt_humans#mocap_fov">
         <rdf:type rdf:resource="cg_sensors#FieldOfView"/>
-        <cg_sensors:fovHasClipNear rdf:datatype="http://www.w3.org/2002/07/owl#real">0.1</cg_sensors:fovHasClipNear>
-        <cg_sensors:fovHasClipFar rdf:datatype="http://www.w3.org/2002/07/owl#real">9</cg_sensors:fovHasClipFar>
+        <cg_sensors:fovHasClipNear rdf:datatype="http://www.w3.org/2002/07/owl#real">0.15</cg_sensors:fovHasClipNear>
+        <cg_sensors:fovHasClipFar rdf:datatype="http://www.w3.org/2002/07/owl#real">12</cg_sensors:fovHasClipFar>
         <cg_sensors:fovHasHeight rdf:datatype="http://www.w3.org/2002/07/owl#real">70</cg_sensors:fovHasHeight>
         <cg_sensors:fovHasWidth rdf:datatype="http://www.w3.org/2002/07/owl#real">102.4</cg_sensors:fovHasWidth>
     </owl:NamedIndividual>
