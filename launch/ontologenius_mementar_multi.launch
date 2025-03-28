@@ -16,5 +16,6 @@
     <arg name="onto_files" value="$(arg files)" />
     <arg name="onto_intern_file" value="none" />
     <arg name="onto_lang" value="fr" />
+    <arg name="onto_root" value="pepper" />
   </include>
 </launch>
