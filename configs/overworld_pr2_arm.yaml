@@ -39,4 +39,4 @@ ar_track_arm:
   ns: /rarm/
 
 static:
-  file: package://overworld/config/adream.yaml
+  file: package://overworld/config/env/adream.yaml

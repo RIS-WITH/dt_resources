@@ -8,4 +8,4 @@ tiago_joints:
   robot_name : tiago
 
 static:
-  file: package://overworld/config/adream.yaml
+  file: package://overworld/config/env/adream.yaml

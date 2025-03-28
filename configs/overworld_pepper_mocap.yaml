@@ -27,4 +27,4 @@ ar_track:
   sensor_id: realsense
 
 static:
-  file: package://overworld/config/adream.yaml
+  file: package://overworld/config/env/adream.yaml

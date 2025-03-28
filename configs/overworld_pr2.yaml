@@ -35,7 +35,7 @@ ar_track:
   min_track_err: 0.08
 
 static:
-  file: package://overworld/config/adream.yaml
+  file: package://overworld/config/env/adream.yaml
 
 obj_area:
   file : package://overworld/config/adream_areas.yaml
