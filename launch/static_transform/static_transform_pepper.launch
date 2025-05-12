@@ -1,8 +1,0 @@
-<launch>
-    <!-- version voliere ouverte -->
-    <!-- <node pkg="tf" type="static_transform_publisher" name="map_link_broadcaster" args="4.9 6.35 -0.09 -1.5707 0 0  map odom 5" />     -->
-    <!-- version voiliere ferme  -->
-    <!-- <node pkg="tf" type="static_transform_publisher" name="map_link_broadcaster" args="4.2 5.7 -0.09 0 0 0 1 map odom 5" />     -->
-    <node pkg="tf" type="static_transform_publisher" name="map_link_broadcaster" args="3.95 6.95 -0.09 0 0 0 1 map odom 5" />    
-    <!-- <node pkg="tf" type="static_transform_publisher" name="map_link_broadcaster" args="4.40 6.35 -0.09 0 0 0 1 map odom 5" />     -->
-</launch>
