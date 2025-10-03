@@ -1,7 +1,6 @@
 <launch>
   <arg name="configuration_file" default="$(find dt_resources)/configs/overworld_pr2.yaml"/>
-  <arg name="robot_name" default="pr2"/>
   <arg name="simulate" default="true"/>
 
-  <node name="overworld" pkg="overworld" type="overworld_node" output="screen" args="-c $(arg configuration_file) -n $(arg robot_name) -s $(arg simulate) -af 20"/>
+  <node name="overworld" pkg="overworld" type="overworld_node" output="screen" args="-c $(arg configuration_file) -s $(arg simulate) -af 20"/>
 </launch>

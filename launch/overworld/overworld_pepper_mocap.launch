@@ -1,7 +1,7 @@
 <launch>
   <arg name="configuration_file" default="$(find dt_resources)/configs/overworld_pepper_mocap.yaml"/>
-  <arg name="robot_name" default="pepper"/>
+  <!--arg name="robot_name" default="pepper"/--> <!--This argument is no more needed if robot name is setted as ontologenius root-->
   <arg name="simulate" default="false"/>
 
-  <node name="overworld" pkg="overworld" type="overworld_node" output="screen" args="-c $(arg configuration_file) -n $(arg robot_name) -s $(arg simulate) -as 6"/>
+  <node name="overworld" pkg="overworld" type="overworld_node" output="screen" args="-c $(arg configuration_file) -s $(arg simulate) -as 6"/>
 </launch>
