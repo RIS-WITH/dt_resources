@@ -1,0 +1,9 @@
+<launch>
+  <arg name="frame" default="odom_combined"/>
+  <arg name="x" default="6.5"/>
+  <arg name="y" default="6.4"/>
+  <arg name="z" default="0"/>
+  <arg name="theta" default="-1.5707"/>
+
+  <node name="virtual_teleop" pkg="overworld" type="teleop" output="screen" args="$(arg frame) $(arg x) $(arg y) $(arg z) $(arg theta)"/>
+</launch>
