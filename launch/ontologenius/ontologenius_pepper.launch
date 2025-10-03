@@ -1,0 +1,8 @@
+<launch>
+
+  <include file="$(find dt_resources)/launch/ontologenius/ontology_init.launch">
+    <arg name="root" value="pepper" />
+    <arg name="language" value="en" />
+  </include>
+
+</launch>
