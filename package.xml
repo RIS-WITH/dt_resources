@@ -1,12 +1,22 @@
 <?xml version="1.0"?>
-<package format="2">
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
   <name>dt_resources</name>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <description>The dt_resources package</description>
-  <maintainer email="gsarthou@laas.fr">gsarthou</maintainer>
+
+  <maintainer email="guillaume.sarthou@laas.fr">srth</maintainer>
 
   <license>BSD</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+  <buildtool_depend condition="$ROS_VERSION == 2">ament_cmake</buildtool_depend>
+
+  <exec_depend condition="$ROS_VERSION == 2">launch</exec_depend>
+
+  <export>
+    <build_type condition="$ROS_VERSION == 2">ament_cmake</build_type>
+  </export>
 
 </package>
